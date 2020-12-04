@@ -1,0 +1,22 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/.vs
+
+/BlogApp.Web/bin
+/BlogApp.Web/obj
+/BlogApp.Web/BlogApp.Web.csproj.user
+/BlogApp.Web/Web.config
+/packages
+/BLSmartPos.v17.suo
+
+
+/BlogApp.Common/bin
+/BlogApp.Common/obj
+/BlogApp.Common/BlogApp.Web.csproj.user
+
+
+/BlogApp.Data/bin
+/BlogApp.Data/obj
+/BlogApp.Data/BlogApp.Web.csproj.user

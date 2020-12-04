@@ -1,0 +1,30 @@
+﻿
+@{
+    ViewData["Title"] = "Blog App";
+}
+
+
+<div class="container">
+    <table id="PostTable" class="table table-bordered table-hover">
+        <thead>
+            <tr></tr>
+        </thead>
+        <tbody class="tbody"></tbody>
+    </table>
+</div>
+
+
+@section Scripts
+    {
+    <script type="text/javascript" src="~/lib/jquery/dist/jquery.js"></script>
+    <script type="text/javascript" src="~/lib/DataTables/datatables.min.js"></script>
+    <script type="text/javascript" src="~/lib/bootstrap/dist/js/bootstrap.js"></script>
+    <script type="text/javascript" src="~/Scripts/PostCommentViewManager.js"></script>
+
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $('PostTable').DataTable();
+        });
+
+    </script>
+}
